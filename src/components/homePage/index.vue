@@ -2,6 +2,7 @@
   <div>
   <img src="../../assets/logo.png">
   <h1>Test</h1>
+    <items-list></items-list>
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
     Launch demo modal
   </button>
@@ -28,8 +29,12 @@
 </template>
 
 <script>
+  import ItemsList from "@/components/List/list.vue"
     export default {
-        name: "index"
+        name: "index",
+      components:{
+          'items-list': ItemsList
+      }
     }
 </script>
 

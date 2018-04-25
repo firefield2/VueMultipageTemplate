@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Navbar from "../../components/common/navbar";
+import Navbar from "../../components/common/navbar.vue";
 export default {
   name: 'Index',
   components: {Navbar}
